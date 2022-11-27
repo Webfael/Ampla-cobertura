@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 42px;  
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D; 
+    cursor: pointer; 
+    margin-right: 32px;
+}
+
+.link-header:hover {
+    opacity: .4;
+}
+
+.link-header:active {
+    color: #6FBF44;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: .4;
+}
+
+.button-header:active {
+    color: #17233D;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    margin-left: 121px;
+    margin-top: 130px;
+    display: inline-block;
+}
+
+section {
+    margin-left: 85px;
+    display:inline-block;
+}
+
+h1 {
+    width: 582px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 40px;
+}
+
+.botao {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: none;
+    border: none;
+}
+
+.botao:hover {
+    opacity: .4;
+}
+
+.botao:active {
+    color: #17233D;
+}
+
+@media screen and (max-width:1320px) {
+    
+    header {
+        margin: 17px 15px 0 284px;
+    }
+
+    .link-header {
+        display: none;
+    }
+}
