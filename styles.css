@@ -54,7 +54,7 @@ img {
     width: 40%;
     height: 40%;
     margin-left: 121px;
-    margin-top: 130px;
+    margin-top: 80px;
     display: inline-block;
 }
 
@@ -105,12 +105,65 @@ p {
 }
 
 @media screen and (max-width:1320px) {
-    
-    header {
-        margin: 17px 15px 0 284px;
+
+    * {
+        box-sizing: none;
     }
 
+    header {
+        margin:0
+    }
+    
     .link-header {
         display: none;
+    }
+
+    .button-header {
+        position: absolute;
+        font-size: 12px;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        top: 17px;
+        right: 15px;
+    }
+
+    section {
+        margin-left: 0;
+        margin-top: 90px;
+    
+    }
+
+    img {
+        position:absolute;
+        width: 312px;
+        height: 288px;
+        margin-left: 39px;
+        margin-top: 500px;
+    }
+
+    h1 {
+        margin-left: 54px;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        margin-left: 43px;
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: 240px;
+        text-align: center;
+    }
+
+    .botao {
+        margin-top: 26px;
+        margin-left: 139px;
+        font-size: 18px;
+        line-height: 27px;
     }
 }
